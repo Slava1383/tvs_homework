@@ -20,8 +20,16 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2cPLwb5xfclzlmT0QBXBedwB0oT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +40,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hometask1",
+    "jdk.selected.JAVA_MODULE": "azul-17",
     "git-widget-placeholder": "hometask2",
     "jdk.selected.JAVA_MODULE": "azul-17",
     "kotlin-language-version-configured": "true",
@@ -60,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708008507910</updated>
       <workItem from="1708008510088" duration="148000" />
+      <workItem from="1708274649144" duration="256000" />
     </task>
     <servers />
   </component>
