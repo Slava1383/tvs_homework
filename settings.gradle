@@ -1,3 +1,4 @@
 rootProject.name = 'tvs_homework'
 include 'hometask1'
+include 'hometask2'
 
