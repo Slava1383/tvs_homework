@@ -10,6 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/hometask1" />
+            <option value="$PROJECT_DIR$/hometask2" />
+            <option value="$PROJECT_DIR$/hometask3" />
+            <option value="$PROJECT_DIR$/hometask4" />
           </set>
         </option>
       </GradleProjectSettings>
