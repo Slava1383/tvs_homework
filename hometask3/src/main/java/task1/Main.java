@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+//        ------------
         System.out.println("Введите число от 1 до 9999");
         Scanner scanner = new Scanner(System.in);
         int numberIn = scanner.nextInt();
@@ -27,5 +28,6 @@ public class Main {
         }while (forWhile != 0);
         System.out.println("Ввод: "+numberIn+"\nвывод: "+thousands+"-тысячи, "+hundreds+"-сотни, "
         +tens+"-десятки, "+units+"-еденицы.\nВсего "+count+" знака.");
+//        -----------
     }
 }

@@ -18,7 +18,7 @@ public class Main {
         } else {
             System.out.println("Не корректные данные.");
         }
-        System.out.println("swich");
+        System.out.println("swich");    //>>--------- switch
         switch (strNameMonth){
             case "январь":
                 System.out.println("Сезон - Зима");
