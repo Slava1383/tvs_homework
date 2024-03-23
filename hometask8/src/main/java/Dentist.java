@@ -1,4 +1,4 @@
-public class Dentist extends Patient{
+public class Dentist{
     public void treat() {
         System.out.println("Dentist treats");
     }

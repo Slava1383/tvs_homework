@@ -8,11 +8,7 @@ public class Patient {
 
     public void setTrPlan(int trPlan) {
         this.trPlan = trPlan;
-        new Therapist().appointDoctor(trPlan);
-    }
 
-    public String getDoctor() {
-        return doctor;
     }
 
     public void setDoctor(String doctor) {

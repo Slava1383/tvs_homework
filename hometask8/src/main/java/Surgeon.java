@@ -1,4 +1,4 @@
-public class Surgeon extends Patient{
+public class Surgeon{
     public void treat() {
         System.out.println("Surgeon treats");
     }
