@@ -4,4 +4,9 @@ public class Cat {
     public String getCat() {
         return cat;
     }
+
+    @Override
+    public String toString() {
+        return cat;
+    }
 }
