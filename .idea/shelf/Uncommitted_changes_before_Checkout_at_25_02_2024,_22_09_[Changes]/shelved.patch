@@ -1,0 +1,42 @@
+Index: hometask4/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Arrays;\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        int[] arr = new int[]{3, 6, 2, 7, 3, 9, 5, 1, 3, 2, 9, 4, 9, 8};\n\n//        >>------------------------------------------ 1.1\n//        int sum = 0;\n//        for (int i = 0; i < arr.length; i++) {\n//            sum += arr[i];\n//        }\n//        System.out.println(sum/arr.length);\n\n//        >>------------------------------------------ 1.2\n//        int[] arrCopy = new int[arr.length];\n//        for (int j = arr.length-1; j >= 0 ; j--) {\n//            for (int i = 0; i < arr.length; i++){\n//                arrCopy[i] = arr[j];\n//            }\n//            System.out.print(arrCopy[j]+\" \");\n//        }\n\n//        >>------------------------------------------ 1.3\n//        for (int i = 0; i < arr.length; i++){\n//            for (int j = i + 1; j < arr.length; j++) {\n//                if(arr[i] == arr[j]){\n//                    System.out.println(arr[j]);\n//                }\n//            }\n//        }\n\n//        >>------------------------------------------ 2\n//        Scanner scanner = new Scanner(System.in);\n//        int userIn = scanner.nextInt();\n//        int[] arrLength = new int[userIn];\n//        arrLength[0] = 0;\n//        arrLength[1] = 1;\n//        for (int i = 2; i < arrLength.length; i++) {\n//            arrLength[i] = (int)(Math.random() * 10);\n//            arrLength[i] = arrLength[i - 1] + arrLength[i - 2];\n//        }\n//        System.out.println(Arrays.toString(arrLength));\n\n//        >>------------------------------------------ 3*\n//        int count = 0;\n//        for (int i = 0; i < arr.length; i++){\n//            for (int j = i + 1; j < arr.length; j++) {\n//                if(arr[i] == arr[j]){\n//                    count = arr[j];\n//                }\n//            }\n//        }\n//        System.out.println(\"Число \"+count);\n    }\n}
+===================================================================
+diff --git a/hometask4/src/main/java/Main.java b/hometask4/src/main/java/Main.java
+--- a/hometask4/src/main/java/Main.java	
++++ b/hometask4/src/main/java/Main.java	
+@@ -3,7 +3,7 @@
+ 
+ public class Main {
+     public static void main(String[] args) {
+-        int[] arr = new int[]{3, 6, 2, 7, 3, 9, 5, 1, 3, 2, 9, 4, 9, 8};
++        int[] arr = new int[]{3, 6, 2, 7, 3, 8, 9, 5, 1, 3, 2, 9, 4, 9, 8};
+ 
+ //        >>------------------------------------------ 1.1
+ //        int sum = 0;
+@@ -43,14 +43,14 @@
+ //        System.out.println(Arrays.toString(arrLength));
+ 
+ //        >>------------------------------------------ 3*
+-//        int count = 0;
+-//        for (int i = 0; i < arr.length; i++){
+-//            for (int j = i + 1; j < arr.length; j++) {
+-//                if(arr[i] == arr[j]){
+-//                    count = arr[j];
+-//                }
+-//            }
+-//        }
+-//        System.out.println("Число "+count);
++        int count = 0;
++        for (int i = 0; i < arr.length; i++){
++            for (int j = i + 1; j < arr.length; j++) {
++                if(arr[i] == arr[j]){
++                    count = arr[j];
++                }
++            }
++        }
++        System.out.println("Число "+count);
+     }
+ }
+\ No newline at end of file

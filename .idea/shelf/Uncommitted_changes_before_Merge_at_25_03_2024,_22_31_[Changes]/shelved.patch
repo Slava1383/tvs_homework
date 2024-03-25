@@ -1,0 +1,185 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024__14_21__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024__14_21__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024__14_21__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024__14_21__Changes_.xml	(revision 643984aa4e561e9397624adfad0baa42faffa92f)
++++ /dev/null	(revision 643984aa4e561e9397624adfad0baa42faffa92f)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_22_02_2024,_14_21_[Changes]" date="1708604757149" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024,_14_21_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 22/02/2024, 14:21 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024__20_54__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024__20_54__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024__20_54__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024__20_54__Changes_.xml	(revision 643984aa4e561e9397624adfad0baa42faffa92f)
++++ /dev/null	(revision 643984aa4e561e9397624adfad0baa42faffa92f)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]" date="1708282743674" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Merge at 18/02/2024, 20:54 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch	(revision 643984aa4e561e9397624adfad0baa42faffa92f)
++++ /dev/null	(revision 643984aa4e561e9397624adfad0baa42faffa92f)
+@@ -1,90 +0,0 @@
+-Index: .idea/gradle.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"gradleHome\" value=\"\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+---- a/.idea/gradle.xml	(revision 67ce1731c3d52cd0bf27dc4c254467b48a679889)
+-+++ b/.idea/gradle.xml	(date 1708282453843)
+-@@ -8,6 +8,7 @@
+-         <option name="modules">
+-           <set>
+-             <option value="$PROJECT_DIR$" />
+-+            <option value="$PROJECT_DIR$/hometask2" />
+-           </set>
+-         </option>
+-       </GradleProjectSettings>
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/gradle.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/settings.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/settings.gradle\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2cPLwb5xfclzlmT0QBXBedwB0oT\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"hometask2\",\n    \"jdk.selected.JAVA_MODULE\": \"azul-17\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.CommitDialog\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-17.0.10-azul-17.0.10-4caba194b151-d69ea429\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"\" />\n      <created>1708008507910</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1708008507910</updated>\n      <workItem from=\"1708008510088\" duration=\"148000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 67ce1731c3d52cd0bf27dc4c254467b48a679889)
+-+++ b/.idea/workspace.xml	(date 1708282453844)
+-@@ -7,7 +7,6 @@
+-     <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="">
+-       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -18,6 +17,13 @@
+-     <projectState path="$PROJECT_DIR$">
+-       <ProjectState />
+-     </projectState>
+-+  </component>
+-+  <component name="FileTemplateManagerImpl">
+-+    <option name="RECENT_TEMPLATES">
+-+      <list>
+-+        <option value="Class" />
+-+      </list>
+-+    </option>
+-   </component>
+-   <component name="Git.Settings">
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-@@ -30,6 +36,7 @@
+-   </component>
+-   <component name="PropertiesComponent"><![CDATA[{
+-   "keyToString": {
+-+    "ASKED_ADD_EXTERNAL_FILES": "true",
+-     "RunOnceActivity.OpenProjectViewOnStart": "true",
+-     "RunOnceActivity.ShowReadmeOnStart": "true",
+-     "git-widget-placeholder": "hometask2",
+-@@ -37,6 +44,7 @@
+-     "kotlin-language-version-configured": "true",
+-     "node.js.selected.package.tslint": "(autodetect)",
+-     "nodejs_package_manager_path": "npm",
+-+    "onboarding.tips.debug.path": "/Users/tvs/IdeaProjects/tvs_homework/hometask2/src/main/java/Main.java",
+-     "project.structure.last.edited": "Modules",
+-     "project.structure.proportion": "0.0",
+-     "project.structure.side.proportion": "0.0",
+-@@ -61,9 +69,22 @@
+-       <updated>1708008507910</updated>
+-       <workItem from="1708008510088" duration="148000" />
+-     </task>
+-+    <task id="LOCAL-00001" summary="hometask2">
+-+      <option name="closed" value="true" />
+-+      <created>1708278641680</created>
+-+      <option name="number" value="00001" />
+-+      <option name="presentableId" value="LOCAL-00001" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1708278641680</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="2" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-     <option name="version" value="3" />
+-   </component>
+-+  <component name="VcsManagerConfiguration">
+-+    <MESSAGE value="hometask2" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="hometask2" />
+-+  </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"gradleHome\" value=\"\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$\" />\n            <option value=\"$PROJECT_DIR$/hometask1\" />\n            <option value=\"$PROJECT_DIR$/hometask2\" />\n            <option value=\"$PROJECT_DIR$/hometask3\" />\n            <option value=\"$PROJECT_DIR$/hometask4\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 09305e5733b592c83510519e7b943fc47e4449c4)
++++ b/.idea/gradle.xml	(date 1711398689862)
+@@ -10,9 +10,13 @@
+           <set>
+             <option value="$PROJECT_DIR$" />
+             <option value="$PROJECT_DIR$/hometask1" />
++            <option value="$PROJECT_DIR$/hometask11" />
+             <option value="$PROJECT_DIR$/hometask2" />
+             <option value="$PROJECT_DIR$/hometask3" />
+             <option value="$PROJECT_DIR$/hometask4" />
++            <option value="$PROJECT_DIR$/hometask5" />
++            <option value="$PROJECT_DIR$/hometask6" />
++            <option value="$PROJECT_DIR$/hometask7" />
+           </set>
+         </option>
+       </GradleProjectSettings>
+Index: hometask12/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/hometask12/src/main/java/Main.java b/hometask12/src/main/java/Main.java
+new file mode 100644
+--- /dev/null	(date 1711398689863)
++++ b/hometask12/src/main/java/Main.java	(date 1711398689863)
+@@ -0,0 +1,12 @@
++public class Main {
++    public static void main(String[] args) {
++        String login;
++        String password;
++        String confirmPassword;
++        try {
++            login.length() < 20
++        }catch (WrongLoginException e){
++
++        }
++    }
++}
+Index: hometask12/src/main/java/WrongLoginException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/hometask12/src/main/java/WrongLoginException.java b/hometask12/src/main/java/WrongLoginException.java
+new file mode 100644
+--- /dev/null	(date 1711398689864)
++++ b/hometask12/src/main/java/WrongLoginException.java	(date 1711398689864)
+@@ -0,0 +1,2 @@
++public class WrongLoginException throw T{
++}

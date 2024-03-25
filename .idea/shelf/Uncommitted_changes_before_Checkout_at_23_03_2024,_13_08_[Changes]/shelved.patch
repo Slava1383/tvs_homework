@@ -1,0 +1,177 @@
+Index: hometask9/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\n    public static void main(String[] args) {\n        Worker worker1 = new Worker(\"Vasya\", \"Petrov\", 3, Positions.WORKER);\n        Worker worker2 = new Worker(\"Ivan\", \"Nortman\", 2, Positions.WORKER);\n        Worker worker3 = new Worker(\"Roman\", \"Smirnov\", 6, Positions.WORKER);\n        Director director1 = new Director(\"Dmitriy\", \"Fedotov\", 8, Positions.DIRECTOR);\n\n        worker1.info();\n        worker2.info();\n        worker3.info();\n        director1.info();\n        director1.undoControl(worker1);\n        director1.undoControl(worker3);\n        System.out.println(director1);\n    }\n}\n
+===================================================================
+diff --git a/hometask9/src/main/java/Main.java b/hometask9/src/main/java/Main.java
+--- a/hometask9/src/main/java/Main.java	
++++ b/hometask9/src/main/java/Main.java	
+@@ -4,13 +4,13 @@
+         Worker worker2 = new Worker("Ivan", "Nortman", 2, Positions.WORKER);
+         Worker worker3 = new Worker("Roman", "Smirnov", 6, Positions.WORKER);
+         Director director1 = new Director("Dmitriy", "Fedotov", 8, Positions.DIRECTOR);
+-
+-        worker1.info();
+-        worker2.info();
+-        worker3.info();
+-        director1.info();
+-        director1.undoControl(worker1);
+-        director1.undoControl(worker3);
+-        System.out.println(director1);
++        String w1 = worker1.toString();
++        String w2 = worker2.toString();
++        String w3 = worker3.toString();
++        String d1 = director1.toString();
++        System.out.format("%s\n%s\n%s\n%s\n",w1,w2,w3,d1);
++        director1.addEmpl(worker1);
++        director1.addEmpl(worker3);
++        System.out.println(director1.getArr());
+     }
+ }
+Index: hometask9/src/main/java/Positions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public enum Positions {\n    DIRECTOR,\n    WORKER\n}\n
+===================================================================
+diff --git a/hometask9/src/main/java/Positions.java b/hometask9/src/main/java/Positions.java
+--- a/hometask9/src/main/java/Positions.java	
++++ b/hometask9/src/main/java/Positions.java	
+@@ -1,4 +1,5 @@
+ public enum Positions {
+     DIRECTOR,
+-    WORKER
++    WORKER;
++
+ }
+Index: hometask9/src/main/java/Worker.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Worker extends Employee{\n\n    public Worker(String firstName, String lastName, int workExp, Positions role) {\n        super(firstName, lastName, workExp, role);\n    }\n\n    @Override\n    public String toString() {\n        return \"Worker{} \" + super.toString();\n    }\n}\n
+===================================================================
+diff --git a/hometask9/src/main/java/Worker.java b/hometask9/src/main/java/Worker.java
+--- a/hometask9/src/main/java/Worker.java	
++++ b/hometask9/src/main/java/Worker.java	
+@@ -6,6 +6,6 @@
+ 
+     @Override
+     public String toString() {
+-        return "Worker{} " + super.toString();
++        return "Worker{ " + super.toString();
+     }
+ }
+Index: hometask9/src/main/java/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public abstract class Employee {\n    private String firstName;\n    private String lastName;\n    private int workExp;\n    private Positions role;\n    public Employee(String firstName, String lastName, int workExp, Positions role) {\n        this.firstName = firstName;\n        this.lastName = lastName;\n        this.workExp = workExp;\n        this.role = role;\n    }\n    public void info(){\n        System.out.format(\"Name - %s %s, expireans - %s, position - %s\\n\",firstName,lastName,workExp,role);\n    }\n    public String getFirstName() {\n        return firstName;\n    }\n\n    public void setFirstName(String firstName) {\n        this.firstName = firstName;\n    }\n\n    public String getLastName() {\n        return lastName;\n    }\n\n    public void setLastName(String lastName) {\n        this.lastName = lastName;\n    }\n\n    public int getWorkExp() {\n        return workExp;\n    }\n\n    public void setWorkExp(int workExp) {\n        this.workExp = workExp;\n    }\n\n    public Positions getRole() {\n        return role;\n    }\n\n    public void setRole(Positions role) {\n        this.role = role;\n    }\n\n    @Override\n    public String toString() {\n        return \"\\nEmployee{\" +\n                \"firstName='\" + firstName + '\\'' +\n                \", lastName='\" + lastName + '\\'' +\n                \", workExp=\" + workExp +\n                \", role=\" + role +\n                '}';\n    }\n}\n
+===================================================================
+diff --git a/hometask9/src/main/java/Employee.java b/hometask9/src/main/java/Employee.java
+--- a/hometask9/src/main/java/Employee.java	
++++ b/hometask9/src/main/java/Employee.java	
+@@ -1,3 +1,4 @@
++
+ public abstract class Employee {
+     private String firstName;
+     private String lastName;
+@@ -9,48 +10,8 @@
+         this.workExp = workExp;
+         this.role = role;
+     }
+-    public void info(){
+-        System.out.format("Name - %s %s, expireans - %s, position - %s\n",firstName,lastName,workExp,role);
+-    }
+-    public String getFirstName() {
+-        return firstName;
+-    }
+-
+-    public void setFirstName(String firstName) {
+-        this.firstName = firstName;
+-    }
+-
+-    public String getLastName() {
+-        return lastName;
+-    }
+-
+-    public void setLastName(String lastName) {
+-        this.lastName = lastName;
+-    }
+-
+-    public int getWorkExp() {
+-        return workExp;
+-    }
+-
+-    public void setWorkExp(int workExp) {
+-        this.workExp = workExp;
+-    }
+-
+-    public Positions getRole() {
+-        return role;
+-    }
+-
+-    public void setRole(Positions role) {
+-        this.role = role;
+-    }
+-
+     @Override
+     public String toString() {
+-        return "\nEmployee{" +
+-                "firstName='" + firstName + '\'' +
+-                ", lastName='" + lastName + '\'' +
+-                ", workExp=" + workExp +
+-                ", role=" + role +
+-                '}';
++        return  firstName + " " + lastName + ", experiance - " + workExp + ", " + role + '}';
+     }
+ }
+Index: hometask9/src/main/java/Director.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.ArrayList;\nimport java.util.List;\n\npublic class Director extends Employee{\n    List<Employee> empl = new ArrayList<>() {\n        @Override\n        public Employee get(int index) {\n            return null;\n        }\n\n        @Override\n        public int size() {\n            return 0;\n        }\n    };\n    public Director(String firstName, String lastName, int workExp, Positions role) {\n        super(firstName, lastName, workExp, role);\n    }\n    public void undoControl(Employee person){\n        empl.add(person);\n    }\n    public List<Employee> getEmpl() {\n        return empl;\n    }\n\n    public void setEmpl(List empl) {\n        this.empl = empl;\n    }\n\n    @Override\n    public String toString() {\n        return \"Director{\" +\n                \"empl=\" + empl +\n                \"} \" + super.toString();\n    }\n}\n
+===================================================================
+diff --git a/hometask9/src/main/java/Director.java b/hometask9/src/main/java/Director.java
+--- a/hometask9/src/main/java/Director.java	
++++ b/hometask9/src/main/java/Director.java	
+@@ -1,36 +1,21 @@
+ import java.util.ArrayList;
+-import java.util.List;
+ 
+ public class Director extends Employee{
+-    List<Employee> empl = new ArrayList<>() {
+-        @Override
+-        public Employee get(int index) {
+-            return null;
+-        }
+-
+-        @Override
+-        public int size() {
+-            return 0;
+-        }
+-    };
++    ArrayList<Employee> arr = new ArrayList<>();
+     public Director(String firstName, String lastName, int workExp, Positions role) {
+         super(firstName, lastName, workExp, role);
+     }
+-    public void undoControl(Employee person){
+-        empl.add(person);
+-    }
+-    public List<Employee> getEmpl() {
+-        return empl;
++
++    public ArrayList<Employee> getArr() {
++        return arr;
+     }
+ 
+-    public void setEmpl(List empl) {
+-        this.empl = empl;
++    public Object addEmpl(Employee employee){
++        arr.add(employee);
++        return arr;
+     }
+-
+     @Override
+     public String toString() {
+-        return "Director{" +
+-                "empl=" + empl +
+-                "} " + super.toString();
++        return "Director{ " + super.toString();
+     }
+ }

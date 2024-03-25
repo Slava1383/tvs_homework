@@ -1,0 +1,172 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"FrameworkDetectionExcludesConfiguration\">\n    <file type=\"web\" url=\"file://$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"azul-17\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="FrameworkDetectionExcludesConfiguration">
+     <file type="web" url="file://$PROJECT_DIR$" />
+   </component>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"hometask3\">\n      <change afterPath=\"$PROJECT_DIR$/hometask9/build.gradle\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/hometask9/src/main/java/Director.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/hometask9/src/main/java/Employee.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/hometask9/src/main/java/Main.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/hometask9/src/main/java/Positions.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/hometask9/src/main/java/Worker.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/gradle.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024__14_21__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024__20_54__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"tvs_homework\" type=\"f1a62948:ProjectNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Enum\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"hometask8\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2cPLwb5xfclzlmT0QBXBedwB0oT\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\n    \"ASKED_MARK_IGNORED_FILES_AS_EXCLUDED\": \"true\",\n    \"Application.Main (1).executor\": \"Run\",\n    \"Application.Main (2).executor\": \"Run\",\n    \"Application.Main (3).executor\": \"Run\",\n    \"Application.Main 9.executor\": \"Run\",\n    \"Application.Main.executor\": \"Run\",\n    \"Application.Main2.executor\": \"Run\",\n    \"Application.Main9.executor\": \"Run\",\n    \"Application.task9.Main.executor\": \"Run\",\n    \"Gradle.Build tvs_homework.executor\": \"Run\",\n    \"Gradle.tvs_homework:hometask3 [:hometask3:Main.main()].executor\": \"Run\",\n    \"Gradle.tvs_homework:hometask5 [:hometask5:Main.main()].executor\": \"Run\",\n    \"Gradle.tvs_homework:hometask6 [:hometask6:Main.main()].executor\": \"Run\",\n    \"Gradle.tvs_homework:hometask7 [:hometask7:Main.main()].executor\": \"Run\",\n    \"Gradle.tvs_homework:hometask8 [:hometask8:Main.main()].executor\": \"Run\",\n    \"Gradle.tvs_homework:hometask9 [:hometask9:Main.main()].executor\": \"Run\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"git-widget-placeholder\": \"hometask9\",\n    \"jdk.selected.JAVA_MODULE\": \"azul-17\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"onboarding.tips.debug.path\": \"/Users/tvs/IdeaProjects/tvs_homework/hometask8/src/main/java/Main.java\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"settings.sync\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Main (1)\">\n    <configuration name=\"Main (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main (3)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"org.example.tvs_homework.hometask8.main\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"azul-17\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"tvs_homework.hometask9.main\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"$USER_HOME$/Library/Java/JavaVirtualMachines/azul-17.0.10/Contents/Home\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"tvs_homework\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"azul-17\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"tvs_homework.hometask7.main\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"task2.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"task2.Main\" />\n      <module name=\"tvs_homework.hometask3.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"task2.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"task3.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"task3.Main\" />\n      <module name=\"tvs_homework.hometask3.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"task3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"Application.Main (1)\" />\n      <item itemvalue=\"Application.Main (3)\" />\n      <item itemvalue=\"Application.Main\" />\n      <item itemvalue=\"Application.task2.Main\" />\n      <item itemvalue=\"Application.task3.Main\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.task3.Main\" />\n        <item itemvalue=\"Application.task2.Main\" />\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.Main (1)\" />\n        <item itemvalue=\"Application.task3.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-17.0.10-azul-17.0.10-4caba194b151-d69ea429\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"\" />\n      <created>1708008507910</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1708008507910</updated>\n      <workItem from=\"1708008510088\" duration=\"148000\" />\n      <workItem from=\"1708274649144\" duration=\"256000\" />\n      <workItem from=\"1708357820004\" duration=\"7115000\" />\n      <workItem from=\"1709468577299\" duration=\"767000\" />\n      <workItem from=\"1709654332272\" duration=\"489000\" />\n      <workItem from=\"1709810619372\" duration=\"10778000\" />\n      <workItem from=\"1709998605539\" duration=\"11120000\" />\n      <workItem from=\"1710107181106\" duration=\"762000\" />\n      <workItem from=\"1710172509948\" duration=\"5743000\" />\n      <workItem from=\"1710259373108\" duration=\"1476000\" />\n      <workItem from=\"1710514426306\" duration=\"9491000\" />\n      <workItem from=\"1710585485510\" duration=\"1272000\" />\n      <workItem from=\"1710615796149\" duration=\"9829000\" />\n      <workItem from=\"1710671441278\" duration=\"1883000\" />\n      <workItem from=\"1710780929749\" duration=\"2069000\" />\n      <workItem from=\"1710783314008\" duration=\"988000\" />\n      <workItem from=\"1710784355995\" duration=\"872000\" />\n      <workItem from=\"1710787066344\" duration=\"1667000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"hometask2\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1708278641680</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708278641680</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"hometask6\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1709407452063</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709407452063</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"hometask7\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1709469194884</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709469194884</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"hometask6_update\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1709817602964</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709817602964</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"hometask8\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710519602639</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710519602639</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"hometask8_update\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710781834555</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710781834555</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"hometask2\" />\n    <MESSAGE value=\"hometask6\" />\n    <MESSAGE value=\"hometask7\" />\n    <MESSAGE value=\"hometask6_update\" />\n    <MESSAGE value=\"hometask8\" />\n    <MESSAGE value=\"hometask3\" />\n    <MESSAGE value=\"hometask8_update\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"hometask8_update\" />\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/tvs_homework$Main.ic\" NAME=\"Main Coverage Results\" MODIFIED=\"1710783061856\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,18 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="hometask3">
+-      <change afterPath="$PROJECT_DIR$/hometask9/build.gradle" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Director.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Employee.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Positions.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Worker.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024__14_21__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024__20_54__Changes_.xml" beforeDir="false" />
++    <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/hometask9/src/main/java/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/hometask9/src/main/java/Director.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/hometask9/src/main/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/hometask9/src/main/java/Employee.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/hometask9/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hometask9/src/main/java/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/hometask9/src/main/java/Positions.java" beforeDir="false" afterPath="$PROJECT_DIR$/hometask9/src/main/java/Positions.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/hometask9/src/main/java/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/hometask9/src/main/java/Worker.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,6 +20,9 @@
+   </component>
+   <component name="ExternalProjectsData">
+     <projectState path="$PROJECT_DIR$">
++      <ProjectState />
++    </projectState>
++    <projectState path="$PROJECT_DIR$/hometask9">
+       <ProjectState />
+     </projectState>
+   </component>
+@@ -56,7 +55,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="hometask8" />
++        <entry key="$PROJECT_DIR$" value="hometask9" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -103,7 +102,7 @@
+     "project.structure.last.edited": "Modules",
+     "project.structure.proportion": "0.0",
+     "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "settings.sync",
++    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+@@ -112,9 +111,17 @@
+       <recent name="" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Main (1)">
+-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Application.Main (2)">
++    <configuration name="Main (1)" type="Application" factoryName="Application" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="IdeaProjects.tvs_homework.hometask9.main" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="tvs_homework.hometask9" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -180,6 +187,7 @@
+     </configuration>
+     <list>
+       <item itemvalue="Application.Main (1)" />
++      <item itemvalue="Application.Main (2)" />
+       <item itemvalue="Application.Main (3)" />
+       <item itemvalue="Application.Main" />
+       <item itemvalue="Application.task2.Main" />
+@@ -187,11 +195,11 @@
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Main (2)" />
++        <item itemvalue="Application.Main (3)" />
++        <item itemvalue="Application.Main" />
+         <item itemvalue="Application.task3.Main" />
+         <item itemvalue="Application.task2.Main" />
+-        <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.Main (1)" />
+-        <item itemvalue="Application.task3.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -227,7 +235,12 @@
+       <workItem from="1710780929749" duration="2069000" />
+       <workItem from="1710783314008" duration="988000" />
+       <workItem from="1710784355995" duration="872000" />
+-      <workItem from="1710787066344" duration="1667000" />
++      <workItem from="1710787066344" duration="2059000" />
++      <workItem from="1710789207958" duration="1737000" />
++      <workItem from="1710866723224" duration="149000" />
++      <workItem from="1710910504325" duration="2004000" />
++      <workItem from="1711016646073" duration="6672000" />
++      <workItem from="1711158027211" duration="7645000" />
+     </task>
+     <task id="LOCAL-00001" summary="hometask2">
+       <option name="closed" value="true" />
+@@ -277,7 +290,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1710781834555</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="hometask9">
++      <option name="closed" value="true" />
++      <created>1710788983406</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1710788983407</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -300,9 +321,14 @@
+     <MESSAGE value="hometask7" />
+     <MESSAGE value="hometask6_update" />
+     <MESSAGE value="hometask8" />
+-    <MESSAGE value="hometask3" />
+     <MESSAGE value="hometask8_update" />
+-    <option name="LAST_COMMIT_MESSAGE" value="hometask8_update" />
++    <MESSAGE value="hometask3" />
++    <MESSAGE value="hometask9" />
++    <option name="LAST_COMMIT_MESSAGE" value="hometask9" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/tvs_homework$Main.ic" NAME="Main Coverage Results" MODIFIED="1710783061856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
