@@ -1,0 +1,60 @@
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"gradleHome\" value=\"\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$\" />\n            <option value=\"$PROJECT_DIR$/hometask1\" />\n            <option value=\"$PROJECT_DIR$/hometask10\" />\n            <option value=\"$PROJECT_DIR$/hometask2\" />\n            <option value=\"$PROJECT_DIR$/hometask3\" />\n            <option value=\"$PROJECT_DIR$/hometask4\" />\n            <option value=\"$PROJECT_DIR$/hometask5\" />\n            <option value=\"$PROJECT_DIR$/hometask6\" />\n            <option value=\"$PROJECT_DIR$/hometask7\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision b651e7c463121d8cba62637067aa1cd232442d76)
++++ b/.idea/gradle.xml	(date 1711398980238)
+@@ -10,13 +10,14 @@
+           <set>
+             <option value="$PROJECT_DIR$" />
+             <option value="$PROJECT_DIR$/hometask1" />
+-            <option value="$PROJECT_DIR$/hometask10" />
+             <option value="$PROJECT_DIR$/hometask2" />
+             <option value="$PROJECT_DIR$/hometask3" />
+             <option value="$PROJECT_DIR$/hometask4" />
+             <option value="$PROJECT_DIR$/hometask5" />
+             <option value="$PROJECT_DIR$/hometask6" />
+             <option value="$PROJECT_DIR$/hometask7" />
++            <option value="$PROJECT_DIR$/hometask10" />
++            <option value="$PROJECT_DIR$/hometask11" />
+           </set>
+         </option>
+       </GradleProjectSettings>
+Index: hometask12/src/main/java/WrongLoginException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/hometask12/src/main/java/WrongLoginException.java b/hometask12/src/main/java/WrongLoginException.java
+new file mode 100644
+--- /dev/null	(date 1711398980282)
++++ b/hometask12/src/main/java/WrongLoginException.java	(date 1711398980282)
+@@ -0,0 +1,2 @@
++public class WrongLoginException throw T{
++}
+Index: hometask12/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/hometask12/src/main/java/Main.java b/hometask12/src/main/java/Main.java
+new file mode 100644
+--- /dev/null	(date 1711398980276)
++++ b/hometask12/src/main/java/Main.java	(date 1711398980276)
+@@ -0,0 +1,12 @@
++public class Main {
++    public static void main(String[] args) {
++        String login;
++        String password;
++        String confirmPassword;
++        try {
++            login.length() < 20
++        }catch (WrongLoginException e){
++
++        }
++    }
++}
