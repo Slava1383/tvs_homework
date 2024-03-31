@@ -40,17 +40,8 @@ public abstract class Employee {
         return role;
     }
 
-    public void setRole(Positions role) {
-        this.role = role;
-    }
-
     @Override
     public String toString() {
-        return "\nEmployee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", workExp=" + workExp +
-                ", role=" + role +
-                '}';
+        return firstName +" "+ lastName +", expireans= "+ workExp +", "+ role ;
     }
 }

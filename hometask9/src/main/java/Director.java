@@ -1,36 +1,27 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.function.IntFunction;
 
-public class Director extends Employee{
-    List<Employee> empl = new ArrayList<>() {
-        @Override
-        public Employee get(int index) {
-            return null;
+public class Director extends Employee {
+    ArrayList<Employee> employees = new ArrayList<>();
+
+    public Director(String firstName, String lastName, int workExp) {
+        super(firstName, lastName, workExp, Positions.DIRECTOR);
+    }
+
+    public void undoControl(Employee employee) {
+        employees.add(employee);
+    }
+
+    public boolean servisSearch(String name) {
+        for (int i = 0 ; i < employees.size() ; i++){
+            if(employees.equals(name)) {
+                return true;
+            }
         }
-
+        return false;
+    }
         @Override
-        public int size() {
-            return 0;
+        public String toString () {
+            return "Director { " + super.toString() + "\n" + employees;
         }
-    };
-    public Director(String firstName, String lastName, int workExp, Positions role) {
-        super(firstName, lastName, workExp, role);
     }
-    public void undoControl(Employee person){
-        empl.add(person);
-    }
-    public List<Employee> getEmpl() {
-        return empl;
-    }
-
-    public void setEmpl(List empl) {
-        this.empl = empl;
-    }
-
-    @Override
-    public String toString() {
-        return "Director{" +
-                "empl=" + empl +
-                "} " + super.toString();
-    }
-}
