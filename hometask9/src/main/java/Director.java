@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.function.IntFunction;
 
 public class Director extends Employee {
     ArrayList<Employee> employees = new ArrayList<>();
@@ -12,9 +11,13 @@ public class Director extends Employee {
         employees.add(employee);
     }
 
-    public boolean servisSearch(String name) {
-        for (int i = 0 ; i < employees.size() ; i++){
-            if(employees.equals(name)) {
+    public boolean servisSearch(Director dir, String name) {
+        for(var sr : dir.employees){
+            System.out.println(sr);
+            if(sr.getFirstName().equals(name)){
+                System.out.println(sr.getFirstName());
+            } else if ((sr.getRole().equals(Positions.DIRECTOR))) {
+                servisSearch((Director)sr,name);
                 return true;
             }
         }
