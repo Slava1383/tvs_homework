@@ -8,8 +8,8 @@ public class Main {
     }
     public static void splitScr(String text) {
         try(BufferedReader reader = new BufferedReader(new FileReader(text));
-        BufferedWriter writerRomeo = new BufferedWriter(new FileWriter("src/romeo.txt"));
-        BufferedWriter writerGuliet = new BufferedWriter(new FileWriter("src/gulieta.txt"))){
+        BufferedWriter writerRomeo = new BufferedWriter(new FileWriter("/Users/tvs/romeo.txt"));
+        BufferedWriter writerGuliet = new BufferedWriter(new FileWriter("/Users/tvs/gulieta.txt"))){
             String line;
             boolean isRomeo = false;
             boolean isGuliet = false;
