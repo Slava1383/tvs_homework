@@ -1,9 +1,6 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
-public class User {
+public class User implements Comparable<User>{
     private String name;
     private int exp;
     private List<String> tasks;
@@ -14,24 +11,23 @@ public class User {
         this.tasks = tasks;
     }
 
-    public static List<User> filterMore2(List<User> users){
-        List<User> filteredUsers = new ArrayList<>();
-        for (User user : users) {
-            if (user.getTasks().size() > 2) {
-                filteredUsers.add(user);
+    public boolean filterMore2(){
+
+            if (getTasks().size() > 2) {
+                return true;
             }
+            return false;
         }
-        return filteredUsers;
+
+    @Override
+    public int compareTo(User user){
+        return Integer.compare(this.exp, user.getExp());
     }
 
-    public static int sortUsersByExp(User user1, User user2){
-        return Integer.compare(user2.getExp(), user1.getExp());
-    }
-
-    public static Set<String> sortByName(List<User> users){
-        Set<String> sortedUsersByName = new HashSet<>();
+    public static Map<String, Integer> sortByName(List<User> users){
+        Map<String, Integer> sortedUsersByName = new HashMap<>();
         for (User user : users) {
-            sortedUsersByName.add(user.getName());
+          sortedUsersByName.put(user.getName(), sortedUsersByName.getOrDefault(user.getName(), 0) + 1);
         }
         return sortedUsersByName;
     }
