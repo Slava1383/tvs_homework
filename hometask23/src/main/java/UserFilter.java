@@ -1,7 +1,7 @@
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+//import jakarta.servlet.http.HttpServletRequest;
+//import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
@@ -15,13 +15,14 @@ public class UserFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        HttpServletRequest request = (HttpServletRequest) servletRequest;
-        HttpServletResponse response = (HttpServletResponse) servletResponse;
-        String Username = request.getParameter("username");
-        if(Username == null || Username.length() < 5) {
-            response.sendRedirect(request.getContextPath()+"/data");
+//        HttpServletRequest request = (HttpServletRequest) servletRequest;
+//        HttpServletResponse response = (HttpServletResponse) servletResponse;
+        String username = servletRequest.getParameter("username");
+        if(username == null || username.length() < 5) {
+            //response.sendRedirect(request.getContextPath()+"/data");
+            servletRequest.getRequestDispatcher("/data").forward(servletRequest, servletResponse);
         }else {
-            filterChain.doFilter(request, response);
+            filterChain.doFilter(servletRequest, servletResponse);
         }
     }
 
