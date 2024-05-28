@@ -5,6 +5,7 @@ public class Main {
         Worker worker3 = new Worker("Roman", "Smirnov", 6);
         Director director1 = new Director("Dmitriy", "Fedotov", 8);
         Director director2 = new Director("new_Direktor","newDirLastName",1);
+        ServiceSearch serviceSearch = new ServiceSearch();
 
         worker1.info();
         worker2.info();
@@ -19,7 +20,7 @@ public class Main {
         director1.undoControl(director2);
         System.out.println(director1);
         System.out.println("-------------");
-        boolean search = director1.servisSearch(director1,"Ivan");
+        boolean search = serviceSearch.servisSearch(director2,"Ivan");
         System.out.println(search);
     }
 }
