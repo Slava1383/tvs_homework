@@ -1,0 +1,682 @@
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>include 'hometask1'\ninclude 'hometask2'\ninclude 'hometask3'\ninclude 'hometask4'\ninclude 'hometask5'\ninclude 'hometask6'\ninclude 'hometask7'\ninclude 'hometask8'\ninclude 'hometask9'\ninclude 'hometask10'\ninclude 'hometask11'\ninclude 'hometask12'\ninclude 'hometask13'\ninclude 'hometask14'\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/settings.gradle b/settings.gradle
+--- a/settings.gradle	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ b/settings.gradle	(date 1713458304555)
+@@ -1,3 +1,4 @@
++rootProject.name = 'tvs_homework'
+ include 'hometask1'
+ include 'hometask2'
+ include 'hometask3'
+@@ -11,6 +12,4 @@
+ include 'hometask11'
+ include 'hometask12'
+ include 'hometask13'
+-include 'hometask14'
+-
+-
++include 'hometask14'
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"gradleHome\" value=\"\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$\" />\n            <option value=\"$PROJECT_DIR$/hometask1\" />\n            <option value=\"$PROJECT_DIR$/hometask10\" />\n            <option value=\"$PROJECT_DIR$/hometask2\" />\n            <option value=\"$PROJECT_DIR$/hometask3\" />\n            <option value=\"$PROJECT_DIR$/hometask4\" />\n            <option value=\"$PROJECT_DIR$/hometask5\" />\n            <option value=\"$PROJECT_DIR$/hometask6\" />\n            <option value=\"$PROJECT_DIR$/hometask7\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ b/.idea/gradle.xml	(date 1713458361595)
+@@ -11,12 +11,18 @@
+             <option value="$PROJECT_DIR$" />
+             <option value="$PROJECT_DIR$/hometask1" />
+             <option value="$PROJECT_DIR$/hometask10" />
++            <option value="$PROJECT_DIR$/hometask11" />
++            <option value="$PROJECT_DIR$/hometask12" />
++            <option value="$PROJECT_DIR$/hometask13" />
++            <option value="$PROJECT_DIR$/hometask14" />
+             <option value="$PROJECT_DIR$/hometask2" />
+             <option value="$PROJECT_DIR$/hometask3" />
+             <option value="$PROJECT_DIR$/hometask4" />
+             <option value="$PROJECT_DIR$/hometask5" />
+             <option value="$PROJECT_DIR$/hometask6" />
+             <option value="$PROJECT_DIR$/hometask7" />
++            <option value="$PROJECT_DIR$/hometask8" />
++            <option value="$PROJECT_DIR$/hometask9" />
+           </set>
+         </option>
+       </GradleProjectSettings>
+Index: .idea/uiDesigner.xml
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+deleted file mode 100644
+--- a/.idea/uiDesigner.xml	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ /dev/null	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
+@@ -1,124 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Palette2">
+-    <group name="Swing">
+-      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+-      </item>
+-      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
+-        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+-        <initial-values>
+-          <property name="text" value="Button" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="RadioButton" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="CheckBox" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="Label" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+-          <preferred-size width="-1" height="20" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+-      </item>
+-    </group>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024__19_43__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024__19_43__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024__19_43__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024__19_43__Changes_.xml	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ /dev/null	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]" date="1708278216657" recycled="false" toDelete="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 18/02/2024, 19:43 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024__22_50__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024__22_50__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024__22_50__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024__22_50__Changes_.xml	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ /dev/null	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_25_03_2024,_22_50_[Changes]" date="1711399907313" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024,_22_50_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 25/03/2024, 22:50 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]/shelved.patch	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ /dev/null	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
+@@ -1,79 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/gradle.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/settings.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/settings.gradle\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 5\n}]]></component>\n  <component name=\"ProjectId\" id=\"2cPLwb5xfclzlmT0QBXBedwB0oT\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"hometask1\",\n    \"jdk.selected.JAVA_MODULE\": \"azul-17\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.CommitDialog\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-17.0.10-azul-17.0.10-4caba194b151-d69ea429\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"\" />\n      <created>1708008507910</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1708008507910</updated>\n      <workItem from=\"1708008510088\" duration=\"148000\" />\n      <workItem from=\"1708274649144\" duration=\"256000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	
+-+++ b/.idea/workspace.xml	
+-@@ -5,9 +5,7 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -19,6 +17,13 @@
+-       <ProjectState />
+-     </projectState>
+-   </component>
+-+  <component name="FileTemplateManagerImpl">
+-+    <option name="RECENT_TEMPLATES">
+-+      <list>
+-+        <option value="Class" />
+-+      </list>
+-+    </option>
+-+  </component>
+-   <component name="Git.Settings">
+-     <option name="RECENT_BRANCH_BY_REPOSITORY">
+-       <map>
+-@@ -38,13 +43,17 @@
+-   </component>
+-   <component name="PropertiesComponent"><![CDATA[{
+-   "keyToString": {
+-+    "ASKED_ADD_EXTERNAL_FILES": "true",
+-     "RunOnceActivity.OpenProjectViewOnStart": "true",
+-     "RunOnceActivity.ShowReadmeOnStart": "true",
+-     "git-widget-placeholder": "hometask1",
+-     "jdk.selected.JAVA_MODULE": "azul-17",
+-     "kotlin-language-version-configured": "true",
+-+    "node.js.detected.package.eslint": "true",
+-+    "node.js.selected.package.eslint": "(autodetect)",
+-     "node.js.selected.package.tslint": "(autodetect)",
+-     "nodejs_package_manager_path": "npm",
+-+    "onboarding.tips.debug.path": "/Users/tvs/IdeaProjects/tvs_homework/hometask1/src/main/java/Main.java",
+-     "project.structure.last.edited": "Modules",
+-     "project.structure.proportion": "0.0",
+-     "project.structure.side.proportion": "0.0",
+-@@ -68,11 +77,24 @@
+-       <option name="presentableId" value="Default" />
+-       <updated>1708008507910</updated>
+-       <workItem from="1708008510088" duration="148000" />
+--      <workItem from="1708274649144" duration="256000" />
+-+      <workItem from="1708274649144" duration="700000" />
+-     </task>
+-+    <task id="LOCAL-00001" summary="hometask1">
+-+      <option name="closed" value="true" />
+-+      <created>1708275121624</created>
+-+      <option name="number" value="00001" />
+-+      <option name="presentableId" value="LOCAL-00001" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1708275121624</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="2" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-     <option name="version" value="3" />
+-   </component>
+-+  <component name="VcsManagerConfiguration">
+-+    <MESSAGE value="hometask1" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="hometask1" />
+-+  </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024,_22_50_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024,_22_50_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024,_22_50_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024,_22_50_[Changes]/shelved.patch	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ /dev/null	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
+@@ -1,60 +0,0 @@
+-Index: .idea/gradle.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"gradleHome\" value=\"\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$\" />\n            <option value=\"$PROJECT_DIR$/hometask1\" />\n            <option value=\"$PROJECT_DIR$/hometask10\" />\n            <option value=\"$PROJECT_DIR$/hometask2\" />\n            <option value=\"$PROJECT_DIR$/hometask3\" />\n            <option value=\"$PROJECT_DIR$/hometask4\" />\n            <option value=\"$PROJECT_DIR$/hometask5\" />\n            <option value=\"$PROJECT_DIR$/hometask6\" />\n            <option value=\"$PROJECT_DIR$/hometask7\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+---- a/.idea/gradle.xml	(revision b651e7c463121d8cba62637067aa1cd232442d76)
+-+++ b/.idea/gradle.xml	(date 1711398980238)
+-@@ -10,13 +10,14 @@
+-           <set>
+-             <option value="$PROJECT_DIR$" />
+-             <option value="$PROJECT_DIR$/hometask1" />
+--            <option value="$PROJECT_DIR$/hometask10" />
+-             <option value="$PROJECT_DIR$/hometask2" />
+-             <option value="$PROJECT_DIR$/hometask3" />
+-             <option value="$PROJECT_DIR$/hometask4" />
+-             <option value="$PROJECT_DIR$/hometask5" />
+-             <option value="$PROJECT_DIR$/hometask6" />
+-             <option value="$PROJECT_DIR$/hometask7" />
+-+            <option value="$PROJECT_DIR$/hometask10" />
+-+            <option value="$PROJECT_DIR$/hometask11" />
+-           </set>
+-         </option>
+-       </GradleProjectSettings>
+-Index: hometask12/src/main/java/WrongLoginException.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/hometask12/src/main/java/WrongLoginException.java b/hometask12/src/main/java/WrongLoginException.java
+-new file mode 100644
+---- /dev/null	(date 1711398980282)
+-+++ b/hometask12/src/main/java/WrongLoginException.java	(date 1711398980282)
+-@@ -0,0 +1,2 @@
+-+public class WrongLoginException throw T{
+-+}
+-Index: hometask12/src/main/java/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/hometask12/src/main/java/Main.java b/hometask12/src/main/java/Main.java
+-new file mode 100644
+---- /dev/null	(date 1711398980276)
+-+++ b/hometask12/src/main/java/Main.java	(date 1711398980276)
+-@@ -0,0 +1,12 @@
+-+public class Main {
+-+    public static void main(String[] args) {
+-+        String login;
+-+        String password;
+-+        String confirmPassword;
+-+        try {
+-+            login.length() < 20
+-+        }catch (WrongLoginException e){
+-+
+-+        }
+-+    }
+-+}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"VcsDirectoryMappings\">\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ b/.idea/vcs.xml	(date 1713458304617)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"hometask3\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/settings.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/settings.gradle\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"hometask2\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2cPLwb5xfclzlmT0QBXBedwB0oT\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\n    \"Gradle.tvs_homework:hometask3 [:hometask3:Main.main()].executor\": \"Run\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"git-widget-placeholder\": \"hometask3\",\n    \"jdk.selected.JAVA_MODULE\": \"azul-17\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"onboarding.tips.debug.path\": \"/Users/tvs/IdeaProjects/tvs_homework/hometask3/src/main/java/Main.java\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.CommitDialog\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\n    &quot;Gradle.tvs_homework:hometask3 [:hometask3:Main.main()].executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;hometask3&quot;,\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-17&quot;,\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/tvs/IdeaProjects/tvs_homework/hometask3/src/main/java/Main.java&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Application.task3.Main\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"task1.Main\" />\n      <module name=\"tvs_homework.hometask3.main\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"task2.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"task2.Main\" />\n      <module name=\"tvs_homework.hometask3.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"task2.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"task3.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"task3.Main\" />\n      <module name=\"tvs_homework.hometask3.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"task3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.task3.Main\" />\n        <item itemvalue=\"Application.task2.Main\" />\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-17.0.10-azul-17.0.10-4caba194b151-d69ea429\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dee1399a-0ff6-47c0-9e9b-046adc488c91\" name=\"Changes\" comment=\"\" />\n      <created>1708008507910</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1708008507910</updated>\n      <workItem from=\"1708008510088\" duration=\"148000\" />\n      <workItem from=\"1708274649144\" duration=\"256000\" />\n      <workItem from=\"1708357820004\" duration=\"7115000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"hometask2\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1708278641680</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708278641680</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"hometask2\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"hometask2\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ b/.idea/workspace.xml	(date 1713522618277)
+@@ -4,7 +4,16 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="hometask3">
++    <list default="true" id="af193e50-c307-470c-b263-957a38ca3d53" name="Changes" comment="hometask12">
++      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]1/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024__19_43__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024,_22_50_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2024__22_50__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+     </list>
+@@ -17,6 +26,23 @@
+     <projectState path="$PROJECT_DIR$">
+       <ProjectState />
+     </projectState>
++  </component>
++  <component name="ExternalProjectsManager">
++    <system id="GRADLE">
++      <state>
++        <projects_view>
++          <tree_state>
++            <expand>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="tvs_homework" type="f1a62948:ProjectNode" />
++              </path>
++            </expand>
++            <select />
++          </tree_state>
++        </projects_view>
++      </state>
++    </system>
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -28,63 +54,90 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="hometask2" />
++        <entry key="$PROJECT_DIR$" value="hometask13" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Slava1383&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/Slava1383/tvs_homework.git&quot;,
++    &quot;accountId&quot;: &quot;a7df1d3e-2229-4df6-9ff4-8fb57d3e135a&quot;
++  }
++}</component>
+   <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 5
++  &quot;customColor&quot;: &quot;&quot;,
++  &quot;associatedIndex&quot;: 8
+ }</component>
+-  <component name="ProjectId" id="2cPLwb5xfclzlmT0QBXBedwB0oT" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectId" id="2erYfd77QPzDgueW63F8vQO8ZM4" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="1" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "Gradle.tvs_homework:hometask3 [:hometask3:Main.main()].executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "hometask3",
+-    "jdk.selected.JAVA_MODULE": "azul-17",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "onboarding.tips.debug.path": "/Users/tvs/IdeaProjects/tvs_homework/hometask3/src/main/java/Main.java",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+-    "vue.rearranger.settings.migration": "true"
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+-    &quot;Gradle.tvs_homework:hometask3 [:hometask3:Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Build tvs_homework.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.tvs_homework:hometask12 [:hometask12:Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.tvs_homework:hometask13 [:hometask13:Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.tvs_homework:hometask14 [:hometask14:Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.tvs_homework:hometask9 [:hometask9:Main.main()].executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;hometask3&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;#15 on hometask14&quot;,
+     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-17&quot;,
+     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/tvs/IdeaProjects/tvs_homework/hometask3/src/main/java/Main.java&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/tvs/IdeaProjects/tvs_homework/src/main/java/Main.java&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.task3.Main">
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/hometask14/src/main/java" />
++    </key>
++    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
++      <recent name="" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Application.Main">
++    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="org.example.tvs_homework.hometask8.main" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="ALTERNATIVE_JRE_PATH" value="azul-17" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="tvs_homework.hometask14.main" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="task1.Main" />
+       <module name="tvs_homework.hometask3.main" />
+@@ -122,6 +175,8 @@
+       <list>
+         <item itemvalue="Application.task3.Main" />
+         <item itemvalue="Application.task2.Main" />
++        <item itemvalue="Application.Main (3)" />
++        <item itemvalue="Application.Main (1)" />
+         <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+@@ -129,21 +184,29 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="jdk-17.0.10-azul-17.0.10-4caba194b151-d69ea429" />
++        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
++        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+       </set>
+     </attachedChunks>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="" />
+-      <created>1708008507910</created>
++      <changelist id="af193e50-c307-470c-b263-957a38ca3d53" name="Changes" comment="hometask12" />
++      <created>1712664271841</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1708008507910</updated>
+-      <workItem from="1708008510088" duration="148000" />
+-      <workItem from="1708274649144" duration="256000" />
+-      <workItem from="1708357820004" duration="7115000" />
++      <updated>1712664271841</updated>
++      <workItem from="1712664276533" duration="1729000" />
++      <workItem from="1712855794652" duration="234000" />
++      <workItem from="1712856277516" duration="628000" />
++      <workItem from="1712917976621" duration="8554000" />
++      <workItem from="1713266585840" duration="3734000" />
++      <workItem from="1713436424154" duration="316000" />
++      <workItem from="1713436755078" duration="5177000" />
++      <workItem from="1713456271078" duration="1362000" />
++      <workItem from="1713458134649" duration="1417000" />
++      <workItem from="1713522108781" duration="274000" />
+     </task>
+     <task id="LOCAL-00001" summary="hometask2">
+       <option name="closed" value="true" />
+@@ -153,7 +216,39 @@
+       <option name="project" value="LOCAL" />
+       <updated>1708278641680</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="hometask12">
++      <option name="closed" value="true" />
++      <created>1712833995956</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1712833995956</updated>
++    </task>
++    <task id="LOCAL-00003" summary="hometask13">
++      <option name="closed" value="true" />
++      <created>1713269744260</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1713269744260</updated>
++    </task>
++    <task id="LOCAL-00004" summary="hometask13">
++      <option name="closed" value="true" />
++      <created>1713283972801</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1713283972801</updated>
++    </task>
++    <task id="LOCAL-00005" summary="hometask14">
++      <option name="closed" value="true" />
++      <created>1713456550133</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1713456550133</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -172,6 +267,10 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="hometask2" />
+-    <option name="LAST_COMMIT_MESSAGE" value="hometask2" />
++    <MESSAGE value="hometask9" />
++    <MESSAGE value="hometask13" />
++    <MESSAGE value="hometask14" />
++    <MESSAGE value="hometask12" />
++    <option name="LAST_COMMIT_MESSAGE" value="hometask12" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"FrameworkDetectionExcludesConfiguration\">\n    <file type=\"web\" url=\"file://$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"azul-17\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision e3d598f1b8b3c805d2fe0795cdd954075cccf09a)
++++ b/.idea/misc.xml	(date 1713458304631)
+@@ -1,9 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="FrameworkDetectionExcludesConfiguration">
+     <file type="web" url="file://$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="azul-17" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="azul-17" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024,_19_43_[Changes]1/shelved.patch
+deleted file mode 100644
