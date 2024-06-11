@@ -20,7 +20,7 @@ public class Main {
         director1.undoControl(director2);
         System.out.println(director1);
         System.out.println("-------------");
-        boolean search = serviceSearch.servisSearch(director2,"Ivan");
+        boolean search = serviceSearch.servisSearch(director1,"Ivan");
         System.out.println(search);
     }
 }

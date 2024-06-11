@@ -7,8 +7,8 @@ public class ServiceSearch {
                 System.out.println(sr.getFirstName());
                 return true;
             } else if ((sr.getRole().equals(Positions.DIRECTOR))) {
-                servisSearch((Director)sr,name);
-                return true;
+                return servisSearch((Director)sr,name);
+                //return true;
             }
         }
         return false;
