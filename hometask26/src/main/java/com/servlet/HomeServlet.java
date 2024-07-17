@@ -30,9 +30,9 @@ public class HomeServlet extends HttpServlet {
         String title = req.getParameter("title");
         String description = req.getParameter("description");
         int year = Integer.parseInt(req.getParameter("year"));
-        boolean watched = Boolean.parseBoolean(req.getParameter("watched"));
-
-        Film film = new Film(title, description, year, watched);
+        String watched = req.getParameter("watched");
+        boolean isWatched = watched != null && !watched.isBlank();
+        Film film = new Film(title, description, year, isWatched);
         service.add(film);
 
         resp.sendRedirect("/");

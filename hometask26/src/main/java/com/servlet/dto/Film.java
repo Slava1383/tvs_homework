@@ -13,7 +13,7 @@ public class Film {
     private String title;
     private String description;
     private int year;
-    private boolean watched;
+    private boolean watched = false;
 
     public Film(String title, String description, int year, boolean watched) {
         this.id = UUID.randomUUID();

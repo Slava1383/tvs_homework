@@ -31,9 +31,10 @@ public class UpdateFilmServlet extends HttpServlet {
         String title = req.getParameter("title");
         String description = req.getParameter("description");
         int year = Integer.parseInt(req.getParameter("year"));
-        boolean watched = Boolean.parseBoolean(req.getParameter("watched"));
+        String watched = req.getParameter("watched");
+        boolean isWatched = watched != null && !watched.isBlank();
         UUID uuid = UUID.fromString(req.getParameter("id"));
-        Film film = new Film(title, description, year, watched);
+        Film film = new Film(title, description, year, isWatched);
         service.update(uuid, film);
         resp.sendRedirect("/");
 

@@ -11,7 +11,12 @@
     Title: <input type="text" name="title" value="${film.title}"><br>
     Description:  <input type="text" name="description" value="${film.description}"><br>
     Year: <input type="number" name="year" value="${film.year}"><br>
-    Watched: <input type="checkbox" name="watched" value="${film.watched}">
+    Watched: <c:if test="${film.watched == true}">
+    <input type="checkbox" checked name="watched">
+    </c:if>
+    <c:if test="${film.watched == false}">
+    <input type="checkbox" name="watched">
+    </c:if>
     <input type="submit" value="update">
 
 </form>
