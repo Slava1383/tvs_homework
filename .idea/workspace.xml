@@ -7,6 +7,16 @@
     <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="hometask3">
     <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="hometask3">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hometask9/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Positions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2024__14_21__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024,_20_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024__20_54__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +29,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tvs_homework" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -30,6 +59,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="revert_hometask3" />
+        <entry key="$PROJECT_DIR$" value="hometask8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,49 +77,82 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main (3).executor": "Run",
+    "Application.Main 9.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.Main9.executor": "Run",
+    "Application.task9.Main.executor": "Run",
+    "Gradle.Build tvs_homework.executor": "Run",
     "Gradle.tvs_homework:hometask3 [:hometask3:Main.main()].executor": "Run",
+    "Gradle.tvs_homework:hometask5 [:hometask5:Main.main()].executor": "Run",
+    "Gradle.tvs_homework:hometask6 [:hometask6:Main.main()].executor": "Run",
+    "Gradle.tvs_homework:hometask7 [:hometask7:Main.main()].executor": "Run",
+    "Gradle.tvs_homework:hometask8 [:hometask8:Main.main()].executor": "Run",
+    "Gradle.tvs_homework:hometask9 [:hometask9:Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "hometask3",
+    "git-widget-placeholder": "hometask9",
     "jdk.selected.JAVA_MODULE": "azul-17",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/tvs/IdeaProjects/tvs_homework/hometask3/src/main/java/Main.java",
+    "onboarding.tips.debug.path": "/Users/tvs/IdeaProjects/tvs_homework/hometask8/src/main/java/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.tvs_homework:hometask3 [:hometask3:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hometask3&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/tvs/IdeaProjects/tvs_homework/hometask3/src/main/java/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}</component>
-  <component name="RunManager" selected="Application.task3.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="org.example.tvs_homework.hometask8.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task1.Main" />
-      <module name="tvs_homework.hometask3.main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tvs_homework.hometask9.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/azul-17.0.10/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tvs_homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-17" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tvs_homework.hometask7.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.task2.Main" />
+      <item itemvalue="Application.task3.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.task3.Main" />
@@ -127,6 +197,8 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.task3.Main" />
         <item itemvalue="Application.task2.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.task3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +226,21 @@
       <workItem from="1708444887251" duration="3290000" />
       <workItem from="1708545907625" duration="2218000" />
       <workItem from="1708595147402" duration="1773000" />
+      <workItem from="1709468577299" duration="767000" />
+      <workItem from="1709654332272" duration="489000" />
+      <workItem from="1709810619372" duration="10778000" />
+      <workItem from="1709998605539" duration="11120000" />
+      <workItem from="1710107181106" duration="762000" />
+      <workItem from="1710172509948" duration="5743000" />
+      <workItem from="1710259373108" duration="1476000" />
+      <workItem from="1710514426306" duration="9491000" />
+      <workItem from="1710585485510" duration="1272000" />
+      <workItem from="1710615796149" duration="9829000" />
+      <workItem from="1710671441278" duration="1883000" />
+      <workItem from="1710780929749" duration="2069000" />
+      <workItem from="1710783314008" duration="988000" />
+      <workItem from="1710784355995" duration="872000" />
+      <workItem from="1710787066344" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="hometask2">
       <option name="closed" value="true" />
@@ -172,6 +259,47 @@
       <updated>1708366456604</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00002" summary="hometask6">
+      <option name="closed" value="true" />
+      <created>1709407452063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709407452063</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hometask7">
+      <option name="closed" value="true" />
+      <created>1709469194884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709469194884</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hometask6_update">
+      <option name="closed" value="true" />
+      <created>1709817602964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709817602964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hometask8">
+      <option name="closed" value="true" />
+      <created>1710519602639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710519602639</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hometask8_update">
+      <option name="closed" value="true" />
+      <created>1710781834555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710781834555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,5 +320,15 @@
     <MESSAGE value="hometask2" />
     <MESSAGE value="hometask3" />
     <option name="LAST_COMMIT_MESSAGE" value="hometask3" />
+    <MESSAGE value="hometask6" />
+    <MESSAGE value="hometask7" />
+    <MESSAGE value="hometask6_update" />
+    <MESSAGE value="hometask8" />
+    <MESSAGE value="hometask3" />
+    <MESSAGE value="hometask8_update" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask8_update" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tvs_homework$Main.ic" NAME="Main Coverage Results" MODIFIED="1710783061856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
