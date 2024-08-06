@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="hometask3">
+    <list default="true" id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="hometask3">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hometask9/build.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Director.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hometask9/src/main/java/Employee.java" afterDir="false" />
@@ -56,10 +58,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="revert_hometask3" />
         <entry key="$PROJECT_DIR$" value="hometask8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -103,6 +107,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
@@ -190,6 +195,8 @@
         <item itemvalue="Application.task3.Main" />
         <item itemvalue="Application.task2.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.task3.Main" />
+        <item itemvalue="Application.task2.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.task3.Main" />
       </list>
@@ -203,6 +210,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dee1399a-0ff6-47c0-9e9b-046adc488c91" name="Changes" comment="" />
@@ -212,7 +222,10 @@
       <updated>1708008507910</updated>
       <workItem from="1708008510088" duration="148000" />
       <workItem from="1708274649144" duration="256000" />
-      <workItem from="1708357820004" duration="7115000" />
+      <workItem from="1708357820004" duration="7282000" />
+      <workItem from="1708444887251" duration="3290000" />
+      <workItem from="1708545907625" duration="2218000" />
+      <workItem from="1708595147402" duration="1773000" />
       <workItem from="1709468577299" duration="767000" />
       <workItem from="1709654332272" duration="489000" />
       <workItem from="1709810619372" duration="10778000" />
@@ -237,6 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708278641680</updated>
     </task>
+    <task id="LOCAL-00002" summary="hometask3">
+      <option name="closed" value="true" />
+      <created>1708366456604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708366456604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <task id="LOCAL-00002" summary="hometask6">
       <option name="closed" value="true" />
       <created>1709407452063</created>
@@ -296,6 +318,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hometask2" />
+    <MESSAGE value="hometask3" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask3" />
     <MESSAGE value="hometask6" />
     <MESSAGE value="hometask7" />
     <MESSAGE value="hometask6_update" />
